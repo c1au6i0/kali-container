@@ -1,0 +1,12 @@
+services:
+  kali:
+    build:
+      context: .
+      args:
+        - USER_PASS=${USER_PASS}
+    container_name: my-kali-instance
+    volumes:
+      - /home/heverz/docker_config/kali_docker/volume:/home/heverz
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
