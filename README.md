@@ -7,7 +7,7 @@ https://www.kali.org/docs/containers/using-kali-docker-images/
 
 ```
 # 1. Create the volume directory
-mkdir -p /home/heverz/docker_config/kali_docker/volume
+mkdir -p /home/myname/docker_config/kali_docker/volume
 
 # 2. Build and launch (using the on-the-fly password)
 # this is just a passwd for example purposes
