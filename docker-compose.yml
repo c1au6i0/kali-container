@@ -4,7 +4,7 @@ services:
       context: .
       args:
         - USER_PASS=${USER_PASS}
-    container_name: my-kali-instance
+    container_name: kali-lab
     volumes:
       - /home/heverz/docker_config/kali_docker/volume:/home/heverz
     stdin_open: true

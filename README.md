@@ -14,5 +14,5 @@ mkdir -p /home/heverz/docker_config/kali_docker/volume
 USER_PASS=testpass123 sudo -E docker compose up -d --build
 
 # 3. Enter the container
-sudo docker exec -u heverz -it my-kali-instance /bin/bash
+sudo docker exec -u heverz -it kali-lab /bin/bash
 ```
